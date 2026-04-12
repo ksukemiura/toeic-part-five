@@ -5,3 +5,7 @@ url = "https://mcp.vercel.com"
 [mcp_servers.next-devtools]
 command = "npx"
 args = [ "-y", "next-devtools-mcp@latest" ]
+
+[mcp_servers.neon]
+type = "http"
+url = "https://mcp.neon.tech/mcp"
